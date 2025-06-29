@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="constants">
+      <UniqueIdentifier>{8d47da11-8caa-43a0-bf0a-b0bd0fb5a2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="factory">
+      <UniqueIdentifier>{eb6f4350-8224-4ff9-b081-eee622972558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{8548f8d1-b372-421c-b1f6-1528618936f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scoreboard">
+      <UniqueIdentifier>{ede51901-787e-45f9-9ba8-a31c6a1887a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strategy">
+      <UniqueIdentifier>{56542b42-4d48-43b2-b1dc-223105d1499e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppConstants.h">
+      <Filter>constants</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoardFactory.h">
+      <Filter>factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>scoreboard</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoardImpl.h">
+      <Filter>scoreboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="StrikeStrategy.h">
+      <Filter>strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="SpareStrategy.h">
+      <Filter>strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultStrategy.h">
+      <Filter>strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyFactory.h">
+      <Filter>strategy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrikeStrategy.cpp">
+      <Filter>strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="SpareStrategy.cpp">
+      <Filter>strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultStrategy.cpp">
+      <Filter>strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoardImpl.cpp">
+      <Filter>scoreboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
