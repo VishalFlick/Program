@@ -67,6 +67,14 @@ int main() {
 
     std::cout << player << std::endl;
 
+    // Toggle: Frame-by-frame breakdown
+    char verboseInput;
+    std::cout << "Show frame-by-frame breakdown? (y/n): ";
+    std::cin >> verboseInput;
+    bool verbose = (verboseInput == 'y' || verboseInput == 'Y');
+
+    player.getScoreBoard()->printFrameDetails(verbose);
+
     delete sb;
     return 0;
 }

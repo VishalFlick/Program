@@ -10,7 +10,7 @@ private:
     int id;
     std::string name;
     ScoreBoard* scoreBoard;
-    bool isWin = false;
+    //bool isWin = false;
 
 public:
     Player(int id, const std::string& name, ScoreBoard* sb)
@@ -19,13 +19,13 @@ public:
 
     std::string getName() const { return name; }
     ScoreBoard* getScoreBoard() const { return scoreBoard; }
-    void setWin(bool win) { isWin = win; }
-    bool getWin() const { return isWin; }
+    //void setWin(bool win) { isWin = win; }
+    //bool getWin() const { return isWin; }
 
     friend std::ostream& operator<<(std::ostream& os, const Player& p) {
         os << "Player { id=" << p.id << ", name=" << p.name
-            << ", score=" << p.scoreBoard->score()
-            << ", isWin=" << (p.isWin ? "true" : "false") << " }";
+            << ", score=" << p.scoreBoard->score() << " }";
+    //        << ", isWin=" << (p.isWin ? "true" : "false") << " }";
         return os;
     }
 };

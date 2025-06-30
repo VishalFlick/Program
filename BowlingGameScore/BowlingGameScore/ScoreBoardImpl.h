@@ -1,5 +1,5 @@
-#ifndef SCOREBOARD_IMPL_HPP
-#define SCOREBOARD_IMPL_HPP
+#ifndef SCOREBOARD_IMPL_H
+#define SCOREBOARD_IMPL_H
 
 #include "ScoreBoard.h"
 #include "AppConstants.h"
@@ -18,6 +18,10 @@ private:
 public:
     void roll(int pins) override;
     int score() override;
+    //void printFrameDetails() const override;
+    void printFrameDetails(bool verbose = true) const override;
+
+
 };
 
 #endif

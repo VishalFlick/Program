@@ -1,7 +1,2 @@
-﻿  DefaultStrategy.cpp
-  main.cpp
-  ScoreBoardImpl.cpp
-  SpareStrategy.cpp
-  StrikeStrategy.cpp
-  Generating Code...
+﻿  ScoreBoardImpl.cpp
   BowlingGameScore.vcxproj -> C:\Users\Vishal Sharma\Desktop\Bowling Game\BowlingGameScore\x64\Debug\BowlingGameScore.exe
